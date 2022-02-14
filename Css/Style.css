@@ -171,9 +171,7 @@ form div{
     grid-column-start: span 2;
 }
 
-.gallery-img:hover{
-    transform: scale(1.05);
-}
+
 
 /* Footer */
 
