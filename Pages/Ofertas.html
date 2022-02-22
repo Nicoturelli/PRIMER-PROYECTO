@@ -6,104 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <title>TURELLI VIAJES</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/Style.css">
 </head>
 <body class="body">
 
     <header class="header">  
-        <nav class="navbar navbar-expand-lg navbar-light "style="background-color: #AFFFF6">
-            <img src="../Imagenes/384163.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
-            <a class="navbar-brand" href="#">TURELLI VIAJES</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light "style="background-color: #AFFFF6">
+            <div class="container-fluid">
+                <img src="../Imagenes/384163.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
+              <a class="navbar-brand" href="#">TURELLI VIAJES</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <a class="nav-item nav-link active" href="../index.html">Inicio</a>
-                    <a class="nav-item nav-link" href="Ofertas.html">Ofertas</a>
-                    <a class="nav-item nav-link" href="Quienes somos.html">Quienes somos?</a>
-                    <a class="nav-item nav-link" href="clientes.html">Clientes</a>
-                    <a class="nav-item nav-link" href="Contacto.html">Contactanos</a>
-                </ul>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link active" href="Ofertas.html">Ofertas</a>
+                  <a class="nav-link" href="Quienes somos.html">Quienes somos?</a>
+                  <a class="nav-link" href="clientes.html">Clientes</a>
+                  <a class="nav-link" href="Contacto.html">Contactanos</a>
+                </div>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
 
-<article class="article">   
-    <div class="div-promo">
-        <img src="../Imagenes/naranja.png" alt="promo" class="div-promo-img">
-        <img src="../Imagenes/benegficios.png" alt="promo" class="div-promo-img">
-    </div>
-
-    <article>
-    <section class="LALA">
-
-        <div class="viajes">
-            <h4 class="destinos">Bora Bora</h4>
-            <img src="../Imagenes/bora.jpg" alt="Bora Bora" class="bora">
-            <p class="descripcion">Isla en medio del oceano pacifico rodeada por un mar azul turquesa y vegetacion exuberante
-            <br>
-        US$750</p>
+    <div class="container-fluid div-container-ofertas">
+        <div class="row">
+          <div class="col col-lg-4 col-sm-6">
+            <div class="card-ofertas">
+                <img src="../Imagenes/bora.jpg" class="card-img-top card-ofertas-img" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title">Bora Bora</h5>
+                  <p class="card-text">Isla en medio del oceano pacifico rodeada por un mar azul turquesa y vegetacion exuberante.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col col-lg-4 col-sm-6">
+            <div class="card-ofertas">
+                <img src="../Imagenes/disney orlando florida.jpg" class="card-img-top card-ofertas-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Orlando, Florida</h5>
+                  <p class="card-text">El complejo Walt Disney cuenta con 4 parques tematicos, parques acuaticos e inumerables atracciones.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col col-lg-4 col-sm-6">
+            <div class="card-ofertas">
+                <img src="../Imagenes/egipto.jpg" class="card-img-top card-ofertas-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Egipto</h5>
+                  <p class="card-text">Compuesto por hermosos paisajes deserticos, majestuosos templos y maravillas de la antiguedad.</p>
+                </div>
+              </div>
+          </div>
+        
+          <div class="col col-lg-4 col-sm-6">
+            <div class="card-ofertas">
+                <img src="../Imagenes/paris.jpg" class="card-img-top card-ofertas-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paris</h5>
+                  <p class="card-text">Diseñada para su disfrute, sus calles, plazas, edificios, jardines y monumentos la hacen la ciudad perfecta para visitar.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col col-lg-4 col-sm-6">
+            <div class="card-ofertas">
+                <img src="../Imagenes/rio de janeiro.jpg" class="card-img-top card-ofertas-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rio de Janeiro</h5>
+                  <p class="card-text">Considerada la ciudad mas hermosa de America del sur. Famosa por sus  playas y su monumento principal: El cristo redentor.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col col-lg-4 col-sm-6">
+            <div class="card-ofertas">
+                <img src="../Imagenes/Bariloche.jpg" class="card-img-top card-ofertas-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bariloche</h5>
+                  <p class="card-text">Sus bellezas naturales, su estilo arquitectónico, y sus destacados centros de esquí convierten a Bariloche en el principal punto de referencia turística de la Patagonia.</p>
+                </div>
+              </div>
+          </div>
         </div>
-
-        <div class="viajes">
-            <h4 class="destinos">Orlando Florida</h4> 
-            <img src="../Imagenes/disney orlando florida.jpg" alt="Orlando Florida" class="orlando">
-            <p class="descripcion">El complejo Walt Disney cuenta con 4 parques tematicos, parques acuaticos e inumerables atracciones
-            <br>
-        US$1300</p>
-        </div>
-    
-        <div class="viajes">
-            <h4 class="destinos">Egipto</h4>
-            <img src="../Imagenes/egipto.jpg" alt="Egipto" class="egipto">
-            <p class="descripcion">Compuesto por hermosos paisajes deserticos, majestuosos templos y maravillas de la antiguedad
-            <br>
-        US$1450</p>
-        </div>
-
-    </section>
-
-    <section class="LALA">
-
-        <div class="viajes">
-            <h4 class="destinos">Paris</h4>
-            <img src="../Imagenes/paris.jpg" alt="Paris" class="paris">
-            <p class="descripcion">Dise;ada para su disfrute, sus calles, plazas, edificios, jardines y monumentos la hacen la ciudad perfecta para visitar
-            <br>
-        US$1200</p>
-        </div>
-    
-        <div class="viajes">
-            <h4 class="destinos">Rio de Janeiro</h4>
-            <img src="../Imagenes/rio de janeiro.jpg" alt="Rio de Janerio" class="rio">
-            <p class="descripcion">Considerada la ciudad mas hermosa de America del sur. Famosa por sus  playas y su monumento principal: El cristo redentor
-            <br>
-        US$600</p>
-        </div>
-
-        <div class="viajes">
-            <h4 class="destinos">Bariloche</h4>
-            <img src="../Imagenes/Bariloche.jpg" alt="Bariloche" class="bariloche">
-            <p class="descripcion">Sus bellezas naturales, que incluyen lagos, bosques y montañas, su estilo arquitectónico, y sus destacados centros de esquí convierten a Bariloche en el principal punto de referencia turística de la Patagonia
-            <br>
-        US$500</p>
-        </div>
-        </section> 
-    </article>
-</article>
+      </div>
 
 <footer class="navbar navbar-expand-lg navbar-light "style="background-color: #AFFFF6">
     <img src="../Imagenes/384163.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
     <div class="navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <a class="nav-item nav-link active" href="https://www.instagram.com/nicoturelli" target="_blank">Instagram</a>
+            <a class="nav-item nav-link" href="https://www.instagram.com/nicoturelli" target="_blank">Instagram</a>
             <a class="nav-item nav-link" href="https://www.facebook.com/Nicoturellii" target="_blank">Facebook</a>
-            <a class="nav-item nav-link" href=https://wa.me/+543512370082" target="_blank">Whatsapp</a>
+            <a class="nav-item nav-link" href="https://wa.me/+543512370082" target="_blank">Whatsapp</a>
         </ul>
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>
+
